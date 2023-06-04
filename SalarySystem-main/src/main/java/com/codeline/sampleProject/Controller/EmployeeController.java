@@ -36,7 +36,7 @@ public class EmployeeController {
 
 
         Employee employee = new Employee();
-        employee.setName("Abdulaziz");
+        employee.setName(employeeRequestObject.getName());
         employee.setGender("Male");
         employee.setSalary(1650.0);
         employee.setDepartment("IT");
